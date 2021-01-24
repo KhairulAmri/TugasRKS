@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@android:color/black"
+        android:text="Shoes Store"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fd"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@android:color/black"
+            android:text="Pendaftaran Akun Shoes Store"
+            />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/textViewliat2"
+                    android:layout_alignParentLeft="true"
+                    android:textStyle="bold"
+                    android:text="Nama Lengkap" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" : "
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/black"
+                    android:ems="10"
+                    android:hint="Nama Lengkap"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="10dp"
+                    android:inputType="textPersonName" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_alignBaseline="@+id/textViewliat2"
+                    android:layout_alignLeft="@+id/TextView01"
+                    android:textStyle="bold"
+                    android:text="Alamat" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text=" : "
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_weight="1"
+                    />
+                <EditText
+                    android:id="@+id/etpass"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:ems="10"
+                    android:textColor="@android:color/black"
+                    android:hint="Alamat"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="10dp"
+                    android:inputType="textPassword" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_alignBaseline="@+id/textViewliat3"
+                    android:layout_alignLeft="@+id/TextView02"
+                    android:textStyle="bold"
+                    android:layout_alignBottom="@+id/textViewliat3"
+                    android:text="No.Hp" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text=" : "
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_weight="1"
+                    />
+                <EditText
+                    android:id="@+id/etname"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/black"
+                    android:ems="10"
+                    android:hint="No Handphone"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="10dp"
+                    android:inputType="textPersonName" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textViewliat4"
+                    android:layout_alignLeft="@+id/TextView04"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:layout_alignBottom="@+id/textViewliat4"
+                    android:text="Tanggal Lahir" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text=" : "
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_weight="1"
+                    />
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/black"
+                    android:ems="10"
+                    android:hint="Tanggal Lahir"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="10dp"
+                    android:inputType="textPersonName" />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_alignBaseline="@+id/textViewliat5"
+                    android:layout_alignLeft="@+id/TextView03"
+                    android:layout_alignBottom="@+id/textViewliat5"
+                    android:text="Email" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text=" : "
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_weight="1"
+                    />
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/black"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="10dp"
+                    android:inputType="textPersonName" />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:layout_width="100dp"
+            android:id="@+id/daf"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="Daftar"
+            android:background="@drawable/roundedcorner"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
