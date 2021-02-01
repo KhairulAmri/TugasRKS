@@ -6,3 +6,7 @@ Aplikasi SHOESSTORE adalah sebuah aplikasi toko online yang menyediakan sepatu. 
 Berikut saya lampirkan link gdrive dari workflow dan wireframe nya :
 
 https://drive.google.com/drive/folders/1v7S9K2-kTlYgeQVQT7Mb1hso3cCkazP1?usp=sharing
+
+
+
+
